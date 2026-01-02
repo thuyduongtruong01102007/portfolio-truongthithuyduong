@@ -29,7 +29,10 @@ const projects = [
     chapter: "Chương 3",
     title: "Tổng quan về trí tuệ nhân tạo",
     objective: "Hiểu khái niệm cơ bản về AI, các ứng dụng phổ biến và tác động của AI trong cuộc sống.",
-    content: "Tìm hiểu về Machine Learning, Deep Learning và các ứng dụng AI như chatbot, nhận dạng hình ảnh. Thực hành sử dụng các công cụ AI trong học tập."
+    content: "Tìm hiểu về Machine Learning, Deep Learning và các ứng dụng AI như chatbot, nhận dạng hình ảnh. Thực hành sử dụng các công cụ AI trong học tập.",
+    attachments: [
+      { label: "bao-cao-thuc-hanh-viet-prompt-hieu-qua.docx", url: "/documents/bao-cao-thuc-hanh-viet-prompt-hieu-qua.docx" }
+    ]
   },
   {
     number: 4,
