@@ -122,7 +122,7 @@ const About = () => {
             <div className="grid md:grid-cols-2 gap-6">
               <InfoCard
                 icon={<Target className="w-6 h-6" />}
-                title="Mục tiêu trong học phần"
+                title="Mục tiêu học tập"
                 delay={0.1}
               >
                 <ul className="space-y-2">
