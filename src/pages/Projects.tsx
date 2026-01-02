@@ -9,7 +9,10 @@ const projects = [
     chapter: "Chương 1",
     title: "Tổ chức thư mục và quy tắc đặt tên",
     objective: "Thiết kế cấu trúc thư mục logic để tổ chức tài liệu học tập. Áp dụng quy tắc đặt tên nhất quán cho file và folder.",
-    content: "Xây dựng hệ thống thư mục phân cấp theo học kỳ, môn học và loại tài liệu. Áp dụng quy tắc đặt tên: viết thường, không dấu, dùng gạch ngang, kèm ngày tháng (VD: bai-tap-01_2024-01-15)."
+    content: "Xây dựng hệ thống thư mục phân cấp theo học kỳ, môn học và loại tài liệu. Áp dụng quy tắc đặt tên: viết thường, không dấu, dùng gạch ngang, kèm ngày tháng (VD: bai-tap-01_2024-01-15).",
+    attachments: [
+      { label: "Tài liệu thao tác thư mục (DOCX)", url: "/documents/bai-tap-01-cau-truc-thu-muc.docx" }
+    ]
   },
   {
     number: 2,
