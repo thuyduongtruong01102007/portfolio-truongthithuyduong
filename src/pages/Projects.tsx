@@ -11,7 +11,7 @@ const projects = [
     objective: "Tìm hiểu cấu tạo, chức năng của máy tính và các thiết bị ngoại vi. Nhận biết và phân loại các loại thiết bị.",
     content: "Nghiên cứu về các thành phần phần cứng của máy tính bao gồm CPU, RAM, ổ cứng và các thiết bị ngoại vi như bàn phím, chuột, màn hình. Thực hành kết nối và cấu hình thiết bị.",
     attachments: [
-      { label: "thao-tac-co-ban-voi-thu-muc-TTTD.docx", url: "/documents/thao-tac-co-ban-voi-thu-muc-TTTD.docx" }
+      { label: "thao-tac-co-ban-voi-thu-muc-tttd.docx", url: "/documents/thao-tac-co-ban-voi-thu-muc-tttd.docx" }
     ]
   },
   {
