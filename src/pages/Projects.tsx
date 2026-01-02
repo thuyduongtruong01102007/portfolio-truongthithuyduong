@@ -49,7 +49,10 @@ const projects = [
     chapter: "Chương 5",
     title: "Sáng tạo nội dung số",
     objective: "Tạo và chỉnh sửa các loại nội dung số bao gồm văn bản, hình ảnh, video và infographic.",
-    content: "Sử dụng Canva, PowerPoint để thiết kế đồ họa. Tạo video ngắn với các công cụ chỉnh sửa cơ bản. Xuất bản nội dung lên các nền tảng số."
+    content: "Sử dụng Canva, PowerPoint để thiết kế đồ họa. Tạo video ngắn với các công cụ chỉnh sửa cơ bản. Xuất bản nội dung lên các nền tảng số.",
+    attachments: [
+      { label: "bao-cao-su-dung-cac-cong-cu-ai-tao-sinh-de-ho-tro-sang-tao-noi-dung-so.docx", url: "/documents/bao-cao-su-dung-cac-cong-cu-ai-tao-sinh-de-ho-tro-sang-tao-noi-dung-so.docx" }
+    ]
   },
   {
     number: 6,
