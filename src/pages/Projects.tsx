@@ -59,7 +59,10 @@ const projects = [
     chapter: "Chương 6",
     title: "An toàn và liêm chính học thuật",
     objective: "Nắm vững các nguyên tắc về an toàn thông tin và liêm chính học thuật trong môi trường số.",
-    content: "Học về bảo mật mật khẩu, nhận biết lừa đảo trực tuyến. Tìm hiểu về quyền sở hữu trí tuệ, trích dẫn nguồn tài liệu và tránh đạo văn."
+    content: "Học về bảo mật mật khẩu, nhận biết lừa đảo trực tuyến. Tìm hiểu về quyền sở hữu trí tuệ, trích dẫn nguồn tài liệu và tránh đạo văn.",
+    attachments: [
+      { label: "su-dung-ai-trong-hoc-tap-va-nghien-cuu.docx", url: "/documents/su-dung-ai-trong-hoc-tap-va-nghien-cuu.docx" }
+    ]
   }
 ];
 
