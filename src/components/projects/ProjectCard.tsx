@@ -8,10 +8,11 @@ interface ProjectCardProps {
   title: string;
   objective: string;
   content: string;
+  attachments?: { label: string; url: string }[];
   delay?: number;
 }
 
-const ProjectCard = ({ number, chapter, title, objective, content, delay = 0 }: ProjectCardProps) => {
+const ProjectCard = ({ number, chapter, title, objective, content, attachments, delay = 0 }: ProjectCardProps) => {
   return (
     <motion.div
       initial={{ opacity: 0, y: 30 }}
@@ -61,12 +62,24 @@ const ProjectCard = ({ number, chapter, title, objective, content, delay = 0 }: 
           </p>
         </div>
 
-        <div className="pt-4 border-t border-border">
-          <Button variant="outline" size="sm" className="w-full group/btn">
-            <span>Xem sản phẩm</span>
-            <ExternalLink className="w-4 h-4 ml-2 group-hover/btn:translate-x-1 transition-transform" />
-          </Button>
-        </div>
+        {attachments && attachments.length > 0 && (
+          <div className="pt-4 border-t border-border space-y-2">
+            {attachments.map((attachment, index) => (
+              <a
+                key={index}
+                href={attachment.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-full"
+              >
+                <Button variant="outline" size="sm" className="w-full group/btn">
+                  <span>{attachment.label}</span>
+                  <ExternalLink className="w-4 h-4 ml-2 group-hover/btn:translate-x-1 transition-transform" />
+                </Button>
+              </a>
+            ))}
+          </div>
+        )}
       </div>
     </motion.div>
   );
