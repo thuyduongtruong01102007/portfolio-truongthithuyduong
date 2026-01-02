@@ -39,7 +39,10 @@ const projects = [
     chapter: "Chương 4",
     title: "Giao tiếp và hợp tác trong môi trường số",
     objective: "Phát triển kỹ năng giao tiếp hiệu quả và làm việc nhóm trực tuyến sử dụng các công cụ số.",
-    content: "Sử dụng các nền tảng như Microsoft Teams, Google Workspace để làm việc nhóm. Thực hành trình bày online và quản lý dự án nhóm."
+    content: "Sử dụng các nền tảng như Microsoft Teams, Google Workspace để làm việc nhóm. Thực hành trình bày online và quản lý dự án nhóm.",
+    attachments: [
+      { label: "su-dung-cong-cu-hop-tac.docx", url: "/documents/su-dung-cong-cu-hop-tac.docx" }
+    ]
   },
   {
     number: 5,
