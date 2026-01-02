@@ -39,7 +39,7 @@ const About = () => {
               transition={{ duration: 0.5, delay: 0.1 }}
               className="font-heading text-4xl md:text-5xl lg:text-6xl font-bold text-heading mb-4"
             >
-              Nguyễn Văn An
+              Trương Thị Thuỳ Dương
             </motion.h1>
             
             <motion.p
@@ -48,7 +48,7 @@ const About = () => {
               transition={{ duration: 0.5, delay: 0.2 }}
               className="text-lg md:text-xl text-muted-foreground mb-6"
             >
-              Sinh viên năm 2 • Khoa Công nghệ Thông tin
+              Sinh viên năm 1 • Ngành Kinh Tế • Khoa Kinh tế Chính Trị
             </motion.p>
 
             <motion.div
@@ -59,11 +59,11 @@ const About = () => {
             >
               <div className="flex items-center gap-2 px-4 py-2 bg-secondary rounded-full">
                 <GraduationCap className="w-4 h-4 text-primary" />
-                <span className="text-sm font-medium">MSSV: 22110123</span>
+                <span className="text-sm font-medium">MSSV: 25050110</span>
               </div>
               <div className="flex items-center gap-2 px-4 py-2 bg-secondary rounded-full">
                 <Mail className="w-4 h-4 text-primary" />
-                <span className="text-sm font-medium">22110123@student.hcmute.edu.vn</span>
+                <span className="text-sm font-medium">thuyduongtruong01102007@gmail.com</span>
               </div>
             </motion.div>
           </div>
@@ -87,9 +87,12 @@ const About = () => {
                 delay={0.1}
               >
                 <p>
-                  Hiện tại tôi đang là sinh viên năm 2 ngành Công nghệ Thông tin 
-                  tại Trường Đại học Sư phạm Kỹ thuật TP.HCM. Tôi luôn nỗ lực 
-                  trong học tập và tham gia các hoạt động ngoại khóa.
+                  Hiện tại, tôi là sinh viên năm nhất Trường Đại học Kinh tế - ĐHQGHN, 
+                  đang trong giai đoạn thi cuối kỳ I. Trong học kỳ đầu tiên này, tôi đã làm quen 
+                  với môi trường học tập đại học, phương pháp học tập mới cũng như các môn học 
+                  nền tảng của ngành. Quá trình học tập bước đầu giúp tôi hình thành ý thức tự học, 
+                  quản lý thời gian và từng bước phát triển các kỹ năng cần thiết cho chặng đường 
+                  học tập tiếp theo.
                 </p>
               </InfoCard>
               
@@ -99,9 +102,11 @@ const About = () => {
                 delay={0.2}
               >
                 <p>
-                  Tôi đam mê về công nghệ, đặc biệt là lập trình web và trí tuệ nhân tạo. 
-                  Ngoài ra, tôi còn thích đọc sách, chơi cờ vua và tham gia các 
-                  cuộc thi học thuật.
+                  Tôi có mối quan tâm đặc biệt đến lĩnh vực kinh tế chính trị, nhất là các vấn đề 
+                  liên quan đến mối quan hệ giữa kinh tế và chính sách xã hội. Tôi hứng thú với 
+                  việc tìm hiểu cách các yếu tố kinh tế tác động đến sự phát triển của quốc gia 
+                  và đời sống của người dân. Những nội dung này giúp tôi mở rộng tư duy phân tích 
+                  và định hướng rõ hơn cho quá trình học tập trong tương lai.
                 </p>
               </InfoCard>
             </div>
