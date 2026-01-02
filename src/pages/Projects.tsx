@@ -7,9 +7,9 @@ const projects = [
   {
     number: 1,
     chapter: "Chương 1",
-    title: "Máy tính và các thiết bị ngoại vi",
-    objective: "Tìm hiểu cấu tạo, chức năng của máy tính và các thiết bị ngoại vi. Nhận biết và phân loại các loại thiết bị.",
-    content: "Nghiên cứu về các thành phần phần cứng của máy tính bao gồm CPU, RAM, ổ cứng và các thiết bị ngoại vi như bàn phím, chuột, màn hình. Thực hành kết nối và cấu hình thiết bị."
+    title: "Tổ chức thư mục và quy tắc đặt tên",
+    objective: "Thiết kế cấu trúc thư mục logic để tổ chức tài liệu học tập. Áp dụng quy tắc đặt tên nhất quán cho file và folder.",
+    content: "Xây dựng hệ thống thư mục phân cấp theo học kỳ, môn học và loại tài liệu. Áp dụng quy tắc đặt tên: viết thường, không dấu, dùng gạch ngang, kèm ngày tháng (VD: bai-tap-01_2024-01-15)."
   },
   {
     number: 2,
