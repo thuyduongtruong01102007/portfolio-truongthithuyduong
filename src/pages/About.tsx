@@ -168,7 +168,7 @@ const About = () => {
           <div>
             <SectionTitle
               title="Mục tiêu Portfolio"
-              subtitle="Ý nghĩa và mục đích của việc xây dựng portfolio học tập"
+              subtitle="Lưu trữ bài tập cá nhân để dễ dàng truy cập và chia sẻ"
               icon={<FolderOpen className="w-5 h-5" />}
             />
             <motion.div
@@ -182,9 +182,9 @@ const About = () => {
                   <div className="w-14 h-14 mx-auto mb-4 rounded-xl bg-primary/10 flex items-center justify-center">
                     <FolderOpen className="w-7 h-7 text-primary" />
                   </div>
-                  <h4 className="font-heading font-semibold text-heading mb-2">Tổng hợp bài tập</h4>
+                  <h4 className="font-heading font-semibold text-heading mb-2">Lưu trữ bài tập</h4>
                   <p className="text-sm text-muted-foreground">
-                    Trình bày các bài tập đã hoàn thành trong học phần
+                    Tập hợp các bài tập cá nhân trong một nơi duy nhất
                   </p>
                 </div>
                 
@@ -192,9 +192,9 @@ const About = () => {
                   <div className="w-14 h-14 mx-auto mb-4 rounded-xl bg-primary/10 flex items-center justify-center">
                     <Target className="w-7 h-7 text-primary" />
                   </div>
-                  <h4 className="font-heading font-semibold text-heading mb-2">Phát triển kỹ năng</h4>
+                  <h4 className="font-heading font-semibold text-heading mb-2">Dễ dàng truy cập</h4>
                   <p className="text-sm text-muted-foreground">
-                    Thể hiện quá trình học tập và phát triển kỹ năng số
+                    Truy cập nhanh chóng mọi lúc, mọi nơi qua trình duyệt web
                   </p>
                 </div>
                 
@@ -202,9 +202,9 @@ const About = () => {
                   <div className="w-14 h-14 mx-auto mb-4 rounded-xl bg-primary/10 flex items-center justify-center">
                     <Share2 className="w-7 h-7 text-primary" />
                   </div>
-                  <h4 className="font-heading font-semibold text-heading mb-2">Chia sẻ học thuật</h4>
+                  <h4 className="font-heading font-semibold text-heading mb-2">Chia sẻ thuận tiện</h4>
                   <p className="text-sm text-muted-foreground">
-                    Lưu trữ sản phẩm phục vụ đánh giá và chia sẻ
+                    Dễ dàng chia sẻ với giảng viên và bạn bè khi cần
                   </p>
                 </div>
               </div>
