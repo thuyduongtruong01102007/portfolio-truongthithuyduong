@@ -128,15 +128,15 @@ const About = () => {
                 <ul className="space-y-2">
                   <li className="flex items-start gap-2">
                     <span className="w-1.5 h-1.5 rounded-full bg-accent mt-2 shrink-0" />
-                    <span>Nắm vững các kỹ năng số cơ bản</span>
+                    <span>Nắm vững kiến thức nền tảng về kinh tế chính trị và các quy luật kinh tế</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="w-1.5 h-1.5 rounded-full bg-accent mt-2 shrink-0" />
-                    <span>Hiểu và ứng dụng trí tuệ nhân tạo trong học tập</span>
+                    <span>Phát triển tư duy phân tích mối quan hệ giữa kinh tế và chính sách xã hội</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="w-1.5 h-1.5 rounded-full bg-accent mt-2 shrink-0" />
-                    <span>Phát triển kỹ năng làm việc nhóm và giao tiếp</span>
+                    <span>Rèn luyện kỹ năng nghiên cứu, làm việc nhóm và thuyết trình</span>
                   </li>
                 </ul>
               </InfoCard>
@@ -149,15 +149,15 @@ const About = () => {
                 <ul className="space-y-2">
                   <li className="flex items-start gap-2">
                     <span className="w-1.5 h-1.5 rounded-full bg-accent mt-2 shrink-0" />
-                    <span>Trở thành chuyên gia về phát triển phần mềm</span>
+                    <span>Trở thành chuyên gia phân tích chính sách kinh tế - xã hội</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="w-1.5 h-1.5 rounded-full bg-accent mt-2 shrink-0" />
-                    <span>Nghiên cứu sâu về Machine Learning và AI</span>
+                    <span>Nghiên cứu sâu về tác động của chính sách đến phát triển quốc gia</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="w-1.5 h-1.5 rounded-full bg-accent mt-2 shrink-0" />
-                    <span>Đóng góp vào cộng đồng công nghệ Việt Nam</span>
+                    <span>Đóng góp vào hoạch định chính sách phát triển bền vững tại Việt Nam</span>
                   </li>
                 </ul>
               </InfoCard>
